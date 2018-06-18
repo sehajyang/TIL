@@ -4,7 +4,7 @@
 
 1. DispatcherServlet : 클라이언트 요청을 받아서, 컨트롤러에 요청을 전달하고 컨트롤러가 리턴한 결과 값을  View 에 전달하여 응답을 생성한다. (Struts 의 ActionServlet)
 2. HandlerMapping : 클라이언트 요청 URL 을 어떤 컨트롤러가 처리할지를 결정한다. (struts-config.xml 의 역할)
-3. Hancler Adapter : Dispatcher Servlet 처리요청 변환해 컨트롤러에 전달하고, 응답결과를  Dispatcher Servlet 이 요구하는 형식으로 변환한다.
+3. Handler Adapter : Dispatcher Servlet 처리요청 변환해 컨트롤러에 전달하고, 응답결과를  Dispatcher Servlet 이 요구하는 형식으로 변환한다.
 4. Controller : 요청을 처리하고 결과를 리턴한다 (Struts 의 Action)
                 DispatcherServlet에 의해 호출돼 사용자 Request 전달받고 해당 요청 처리하는 서비스객체를 주입(DI) 받아, 그 서비스 객체에 
                 처리 위임 후 처리 결과 및 화면에 대한 정보를 DispatcherServlet에게 반환한다
@@ -21,7 +21,7 @@
 
 Controller Class의 RequestMapping 값과
 
-Handler Method의 RequestMaping 값을 기준으로 
+Handler Method의 RequestMapping 값을 기준으로 
 
 DispatcherServlet이 ViewResolver를 통해 화면 URL 생성
 
