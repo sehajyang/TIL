@@ -1,6 +1,6 @@
-###Annotation 을 이용한 Controller 세팅
+### Annotation 을 이용한 Controller 세팅
 
-#####1. XML 세팅
+##### 1. XML 세팅
 
 <context:component-scan base-package="" />
 
