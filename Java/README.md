@@ -2,17 +2,17 @@
 
 ### 1. Java 란
 
-[객체지향(OPP)]("") 프로그래밍 언어
+[객체지향(OPP)]("#2. 객체지향 프로그래밍(Object Oriented Programming)") 프로그래밍 언어
 
-[JVM]("https://github.com/yunjey0/TIL/blob/master/Java/README.md#7-jvm-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0") 을 이용(운영체제에 독립적). 
+[JVM]("#7-jvm-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0") 을 이용(운영체제에 독립적). 
 
 자바에서 컴파일 시 바이트코드(.class)로 출력되며 그 바이트코드는 기계코드로 변경되어 실행된다.
 
 
-자동으로 [메모리 관리(Garbage collector)]("https://github.com/yunjey0/TIL/blob/master/Java/README.md#8-garbage-colloetion")를 해준다.
+자동으로 [메모리 관리(Garbage collector)]("#8-garbage-colloetion")를 해준다.
 
 
-[다중 쓰레드]("https://github.com/yunjey0/TIL/blob/master/Java/README.md#7-%EC%93%B0%EB%A0%88%EB%93%9Cthread")를 제공한다.
+[다중 쓰레드]("#7-%EC%93%B0%EB%A0%88%EB%93%9Cthread")를 제공한다.
 
 ##### C언어와의 차이점
 
