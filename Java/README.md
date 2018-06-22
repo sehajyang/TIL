@@ -2,17 +2,17 @@
 
 ### 1. Java 란
 
-[객체지향(OPP)]("#2. 객체지향 프로그래밍(Object Oriented Programming)") 프로그래밍 언어
+[객체지향(OPP)](#2. 객체지향 프로그래밍(Object Oriented Programming)) 프로그래밍 언어
 
-[JVM]("#7-jvm-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0") 을 이용(운영체제에 독립적). 
+[JVM](#7-jvm-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0) 을 이용(운영체제에 독립적). 
 
 자바에서 컴파일 시 바이트코드(.class)로 출력되며 그 바이트코드는 기계코드로 변경되어 실행된다.
 
 
-자동으로 [메모리 관리(Garbage collector)]("#8-garbage-colloetion")를 해준다.
+자동으로 [메모리 관리(Garbage collector)](#8-garbage-colloetion)를 해준다.
 
 
-[다중 쓰레드]("#7-%EC%93%B0%EB%A0%88%EB%93%9Cthread")를 제공한다.
+[다중 쓰레드](#7-%EC%93%B0%EB%A0%88%EB%93%9Cthread)를 제공한다.
 
 ##### C언어와의 차이점
 
@@ -90,7 +90,7 @@ Overriding, Overloading 이 있다.
 
 부모클래스에서 private로 선언시 자식클래스는 상속받아도 사용하지 못한다.
 
-다중상속(extends)이 불가능하므로 [interface]("")를 사용해 다중상속을 한다.
+다중상속(extends)이 불가능하므로 [interface](# 6. 추상 클래스(Abstract Class)와 인터페이스(Interface))를 사용해 다중상속을 한다.
 
 
 
@@ -349,6 +349,6 @@ JVM이 자동 실행해주지만 System.gc() 로 수동으로도 가비지 컬�
 
 ##### 참고 
 
-[JongMin Kim님 repository]("https://github.com/devetude/Java-Interview-QnA")
-[HanjaeYeop님 reposiroty]("https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/Development_common_sense")
+[JongMin Kim님 repository](https://github.com/devetude/Java-Interview-QnA)
+[HanjaeYeop님 reposiroty](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/Development_common_sense)
 
