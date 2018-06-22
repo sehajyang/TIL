@@ -4,13 +4,15 @@
 
 [객체지향(OPP)]("") 프로그래밍 언어
 
-JVM 을 이용(운영체제에 독립적). 
+[JVM]("https://github.com/yunjey0/TIL/blob/master/Java/README.md#7-jvm-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0") 을 이용(운영체제에 독립적). 
 
 자바에서 컴파일 시 바이트코드(.class)로 출력되며 그 바이트코드는 기계코드로 변경되어 실행된다.
 
-자동으로 메모리 관리(Garbage collector)를 해준다.
 
-[다중 쓰레드]("")를 제공한다.
+자동으로 [메모리 관리(Garbage collector)]("https://github.com/yunjey0/TIL/blob/master/Java/README.md#8-garbage-colloetion")를 해준다.
+
+
+[다중 쓰레드]("https://github.com/yunjey0/TIL/blob/master/Java/README.md#7-%EC%93%B0%EB%A0%88%EB%93%9Cthread")를 제공한다.
 
 ##### C언어와의 차이점
 
@@ -160,7 +162,9 @@ call-by-value에 의해 메소드의 인자값을 전달한다.
 
 소프트웨어 설계와 구현을 재사용 가능하도록 해주는 뼈대
 
-구체적, 확장 가능한 기반코드를 가지고 설계자의 의도에 따르는 여러 디자인 패턴 집합으로 구성
+구체적, 확장 가능한 기반코드를 가지고 설계자의 의도에 따르는 여러 디자인 패턴 집합으로 구성되어있다.
+
+완성된 도구가 아니라는 점에서 라이브러리와 다르다.
 
 
 
@@ -346,6 +350,5 @@ JVM이 자동 실행해주지만 System.gc() 로 수동으로도 가비지 컬�
 ##### 참고 
 
 [JongMin Kim님 repository]("https://github.com/devetude/Java-Interview-QnA")
-
 [HanjaeYeop님 reposiroty]("https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/Development_common_sense")
 
