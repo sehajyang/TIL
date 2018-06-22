@@ -8,7 +8,7 @@ JVM 을 이용(운영체제에 독립적).
 
 자바에서 컴파일 시 바이트코드(.class)로 출력되며 그 바이트코드는 기계코드로 변경되어 실행된다.
 
-자동으로 [메모리 관리(Garbage collector)]("#8. Garbage Colloetion")를 해준다.
+자동으로 메모리 관리(Garbage collector)를 해준다.
 
 [다중 쓰레드]("")를 제공한다.
 
@@ -347,5 +347,5 @@ JVM이 자동 실행해주지만 System.gc() 로 수동으로도 가비지 컬�
 
 [JongMin Kim님 repository]("https://github.com/devetude/Java-Interview-QnA")
 
-[HanjaeYeop님 reposiroty]("<https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/Development_common_sense ")
+[HanjaeYeop님 reposiroty]("https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/Development_common_sense")
 
