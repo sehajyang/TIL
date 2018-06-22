@@ -30,9 +30,7 @@ JVM 을 이용(운영체제에 독립적).
 
   C언어에 비해 메모리와 속도가 느리다(JVM을 사용하기 때문).
 
-
-
-#### 객체지향 프로그래밍(Object Oriented Programming)
+### 2. 객체지향 프로그래밍(Object Oriented Programming)
 
 실 생활의 특징을 모델링 해 소프트웨어로 옮겨오는것
 
@@ -62,8 +60,6 @@ Overriding, Overloading 이 있다.
 
   super()를 쓰면 부모클래스 메소드를 사용한다.
 
-  
-
 * Overloading
 
   같은 이름이지만 매개변수의 종류 및 숫자가 다른 메소드
@@ -86,9 +82,7 @@ Overriding, Overloading 이 있다.
 
 다중상속(extends)이 불가능하므로 [interface]("")를 사용해 다중상속을 한다.
 
-
-
-### 2. 자료형(Data type)
+### 3. 자료형(Data type)
 
 #### 기본 자료형
 
@@ -100,9 +94,12 @@ Overriding, Overloading 이 있다.
 
   byte, char, short, int, double, long, float, boolean
 
-* [WrapperClass]("")  = 기본 데이터타입을 Class 화 한것
+* [WrapperClass]("") 
 
-  
+  기본 데이터타입을 참조자료형으로 만든것(Class 화 한 것)
+
+  참조 자료형을 매개변수로 받거나, 객체자료형으로 저장해야하거나 객체간 비교가 필요할 경우 사용
+
 
 #### 참조 자료형(Reference Data Type)
 
@@ -128,7 +125,7 @@ Overriding, Overloading 이 있다.
 
   
 
-### 3. 접근제어자(Access modifire)
+### 4. 접근제어자(Access modifire)
 
 접근 영역을 제한시 사용한다 선언 생략시 default로 setting
 
@@ -142,15 +139,11 @@ Overriding, Overloading 이 있다.
 
   private        :    자신의 클래서 내 에서만 사용 가능
 
-
-
 ### 4. FrameWork 
 
 소프트웨어 설계와 구현을 재사용 가능하도록 해주는 뼈대
 
 구체적, 확장 가능한 기반코드를 가지고 설계자의 의도에 따르는 여러 디자인 패턴 집합으로 구성
-
-
 
 ### 5. Collection
 
@@ -196,7 +189,35 @@ Overriding, Overloading 이 있다.
 
     모든 입출력이 동기화(토큰을 부여받아 순차접근)되나 처리속도는 떨어진다.
 
-#### 6. 쓰레드(Thread)
+### 6. 추상 클래스(Abstract Class)와 인터페이스(Interface)
+
+##### - 추상클래스(abstract)
+
+extends이용해 상속을 진행한다.
+
+단일 상속
+
+형태만 정의(미완성 메소드)함으로 자식클래스에선 미완성 메소드를 재정의 해야한다.
+
+##### - 인터페이스(interface)
+
+implements 를 이용해 상속을 진행한다.
+
+다중 상속
+
+추상클래스보다 추상화 정도가 높다. 기능의 재정의에 큰 의미를 둔다
+
+상수와 추상 메소드만 선언 가능하다.
+
+자식클래스에서 반드시 메소드를 재정의(overriding) 해야한다
+
+
+
+
+
+
+
+### 7. 쓰레드(Thread)
 
 
 
