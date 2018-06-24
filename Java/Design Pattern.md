@@ -11,7 +11,7 @@
 
 ##### 4 - Template Method
 
-##### 5 – [Singleton](#-singleton)
+##### 5 – [Singleton](#singleton)
 
 ##### 6 – Strategy
 
