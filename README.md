@@ -8,6 +8,9 @@
 - GFM (Github Flavored Markdown)을 이용
 - 강제성을 띄지 않는다.
 
+## Study-log
+[스터디 로그는 이쪽](https://sehajyang.github.io/logs/2018/06/26/study-log.html)
+
 #### [Algorithm](https://github.com/yunjey0/TIL/tree/master/Algorithm/src/baekjoonStudy)
 
 #### [Java 정리](https://github.com/yunjey0/TIL/tree/master/Java)
