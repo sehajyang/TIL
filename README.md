@@ -9,7 +9,7 @@
 - 강제성을 띄지 않는다.
 
 ## Study-log
-[스터디 로그는 이쪽](https://sehajyang.github.io/logs/2018/06/26/study-log.html)
+[스터디 로그는 이쪽:point_left:](https://sehajyang.github.io/logs/2018/06/26/study-log.html)
 
 #### [Algorithm](https://github.com/yunjey0/TIL/tree/master/Algorithm/src/baekjoonStudy)
 
