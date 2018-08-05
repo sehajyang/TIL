@@ -128,7 +128,7 @@ Subject 인터페이스와 옵저버는 서로 독립적으로 재사용 할 수
 
 즉, 클래스의 인스턴스 만드는 일을 서브클래스에게 맡긴다.
 
-
+<hr>
 참고 : HeadFirst Design Pattern
 
 
