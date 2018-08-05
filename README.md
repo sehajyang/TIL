@@ -11,9 +11,11 @@
 ## Study-log
 [스터디 로그는 이쪽:point_left:](https://sehajyang.github.io/logs/2018/06/26/study-log.html)
 
-#### [Algorithm](https://github.com/yunjey0/TIL/tree/master/Algorithm/src/baekjoonStudy)
+#### [Algorithm](https://github.com/sehajyang/TIL/tree/master/Algorithm/src/baekjoonStudy)
 
-#### [Java 정리](https://github.com/yunjey0/TIL/tree/master/Java)
+#### [Design Pattern](https://github.com/sehajyang/TIL/blob/master/Java/Design%20Pattern.md)
 
-#### [Spring 정리](https://github.com/yunjey0/TIL/blob/master/Spring)
+#### [Java 정리](https://github.com/sehajyang/TIL/tree/master/Java)
+
+#### [Spring 정리](https://github.com/sehajyang/TIL/blob/master/Spring)
 
