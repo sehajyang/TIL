@@ -3,7 +3,7 @@
 
 ### 종류
 
-##### 1 – [Iterator]("")
+##### 1 – Iterator
 
 ##### 2 – Adapter
 
