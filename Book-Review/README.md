@@ -11,7 +11,7 @@
 8. [소프트웨어 장인](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=66925855)
 9. [클린 코드](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=34083680)
 10. [Computer Systems]()
-11. [프로그래머의 길, 멘토에게 묻다](https://github.com/sehajyang/TIL/blob/master/Book-Review/RV-programmer-load.md)
+11. [프로그래머의 길, 멘토에게 묻다:heavy_check_mark:](https://github.com/sehajyang/TIL/blob/master/Book-Review/RV-programmer-load.md)
 
 # 9.클린코드
 
