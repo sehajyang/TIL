@@ -1,5 +1,3 @@
-![nodeLogo]({{ "/resources/img/node.png"}})
-
 ## Node.js 란 
 
 공식 홈페이지의 설명은 이렇다.
