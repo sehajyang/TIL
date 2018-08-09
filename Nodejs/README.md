@@ -1,3 +1,4 @@
+![img](https://www.shareicon.net/data/512x512/2015/10/06/112725_development_512x512.png)
 ## Node.js 란 
 
 공식 홈페이지의 설명은 이렇다.
@@ -20,14 +21,10 @@ Node.js는 Chrome의 V8 자바 스크립트 엔진에 기반한 자바 스크립
 
 ##### 요약하자면
 ```
- Node의 콜백함수는 비동기로 돌아가며, 서버가 동작될 때 까지 기다리는게 아니고
-
+Node의 콜백함수는 비동기로 돌아가며, 서버가 동작될 때 까지 기다리는게 아니고
 함수보다 다른 코드가 먼저 실행된다.
-
 동기적인거 먼저 실행되고 그 뒤에 비 동기적인 콜백함수가 실행된다!
 ```
-
-
 
 
 ##### Blocking, Non-Blocking 차이? 
@@ -76,7 +73,9 @@ Node.js 에서 가장 많이 사용하는 웹 어플리케이션 프레임워크
 
 
 <hr>
+
 위 글은 아래의 강의 를 정리 한 것 입니다.
+
 
 [Node.js 기반의 REST API 서버 개발](https://tacademy.sktechx.com/live/player/onlineLectureDetail.action?seq=134)
 
