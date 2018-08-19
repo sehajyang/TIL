@@ -11,7 +11,7 @@ Node.js는 Chrome의 V8 자바 스크립트 엔진에 기반한 자바 스크립
 
 * 브라우저 밖에서 자바스크립트 코드를 실행할 수 있다.
 * 크롬에서 쓰는 V8 엔진을 사용한다.
-* 이벤트 기반의 비동기  I/O 프레임워크
+* [이벤트 기반](#이벤트 기반)의 비동기  I/O 프레임워크
   * 발생된 이벤트는 Event Loop(single thread)가 처리한다.
   * 간단한 이벤트는 EventLoop가 아닌 다른 Non-blocking-Worker에게 처리
   * 일 다하면(완료된 이벤트) EventLoop에게 리턴 => 이벤트 기반의 framework기 때문
@@ -19,12 +19,30 @@ Node.js는 Chrome의 V8 자바 스크립트 엔진에 기반한 자바 스크립
 
 속도가 빠른 대신 SingleThread므로 코어를 1개만 쓴다.
 
+
 ##### 요약하자면
 ```
 Node의 콜백함수는 비동기로 돌아가며, 서버가 동작될 때 까지 기다리는게 아니고
 함수보다 다른 코드가 먼저 실행된다.
 동기적인거 먼저 실행되고 그 뒤에 비 동기적인 콜백함수가 실행된다!
 ```
+
+
+
+### 이벤트 기반
+
+이벤트 기반이란 이벤트가 발생할때 미리 지정해둔 작업을 수행하는 방식
+
+이벤트가 발생할때 이벤트 리스너에 콜백함수를(무엇을 할지)등록해둬야 한다.
+
+
+
+### 이벤트 루프
+
+여러 이벤트가 동시에 발생시 어떤 순서로 콜백함수를 호출할지 판단
+
+노드가 종료될 때 까지 이벤트 처리 위한 작업을 반복한다.
+
 
 
 ##### Blocking, Non-Blocking 차이? 
@@ -54,6 +72,7 @@ Node의 콜백함수는 비동기로 돌아가며, 서버가 동작될 때 까�
 
 
 
+
 ### Express.js
 
 Node.js 에서 가장 많이 사용하는 웹 어플리케이션 프레임워크
@@ -74,14 +93,13 @@ Node.js 에서 가장 많이 사용하는 웹 어플리케이션 프레임워크
 
 <hr>
 
-위 글은 아래의 강의 를 정리 한 것 입니다.
+위 글은 아래의 강의 및 책을 정리 한 것 입니다.
 
 
 [Node.js 기반의 REST API 서버 개발](https://tacademy.sktechx.com/live/player/onlineLectureDetail.action?seq=134)
 
 [Node.js 웹개발로 알아보는 백엔드 자바스크립트의 이해](https://www.inflearn.com/course/node-js-%EC%9B%B9%EA%B0%9C%EB%B0%9C/)
-
 => [실습 repo](https://github.com/sehajyang/Node.js-Study)
 
-
+[Node.js 교과서](http://www.yes24.com/24/goods/62597864)
 
