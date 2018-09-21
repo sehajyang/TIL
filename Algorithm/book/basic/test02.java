@@ -1,4 +1,4 @@
-package bookLec;
+package book;
 
 public class test02 {
 	static int min4(int a, int b, int c, int d) {

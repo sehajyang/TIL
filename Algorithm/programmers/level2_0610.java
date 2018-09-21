@@ -1,7 +1,7 @@
 package programmers;
 
 public class level2_0610 {
-	//다른 사람 풀이
+
 	class Hopscotch {
 	    int hopscotch(int[][] board, int size) {
 	        return hopscotch(board, size, 0, -1);
