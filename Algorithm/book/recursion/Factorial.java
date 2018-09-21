@@ -2,9 +2,12 @@ package recursion;
 
 import java.text.ParseException;
 import java.util.Scanner;
-
 import junit.framework.TestCase;
 
+/*
+ * 직접재귀 : 자기 자신과 같은 메소드를 호출
+ * 간접재귀 : 다른메소드를 통해 자기자신과 같은 메소드를 호출
+*/
 public class Factorial extends TestCase {
 
 	public void test() throws ParseException {
