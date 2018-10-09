@@ -9,6 +9,9 @@
 - 강제성을 띄지 않는다.
 
 ## Study-log
+
+[매일매일 알고리즘](https://github.com/sehajyang/TIL/tree/master/Algorithm/baekjoonStudy/daily)
+
 [스터디 로그는 이쪽:point_left:](https://sehajyang.github.io/logs/2018/08/22/study-log.html)
 
 #### [Algorithm](https://github.com/sehajyang/TIL/tree/master/Algorithm/src/baekjoonStudy)
