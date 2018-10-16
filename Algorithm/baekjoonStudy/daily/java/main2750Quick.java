@@ -2,14 +2,15 @@
  * 181015
  * 백준 2750
  * 퀵정렬
+ * 소스보고 다시 이해하기
  * */
 
 package daily.java;
 import java.util.Arrays;
 
-public class main2750 {
+public class main2750Quick {
 	public static void main(String[] args) {
-		main2750 qsort = new main2750();
+		main2750Quick qsort = new main2750Quick();
 		int[] arr = {5,5,1,4,3,2};
 		qsort.sort(arr);
 		System.out.println(Arrays.toString(arr));
