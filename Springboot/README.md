@@ -2,9 +2,9 @@
 
 본 문서는 위의 강좌를 공부하며 정리한 것 입니다.
 
-목차
+### 목차
 
-* 스프링부트 프로젝트 구조
+* [스프링부트 프로젝트 구조](https://github.com/sehajyang/TIL/blob/master/Springboot/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B5%AC%EC%A1%B0.md)
 
 * 스프링부트 원리
   * 의존성 관리 이해 및 응용
