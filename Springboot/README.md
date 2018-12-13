@@ -56,6 +56,28 @@
 * springboot dependencies pom엔 최상위에 버전에 대한 명시가 되어있다.
 * 최상위엔 springboot starter 말고도 다른 설정(java version)이 많으므로 굳이 그곳에 직접 dependencies를 추가하지 않는게 좋다.
 
- 
+### 자동설정 이해
+
+* @EnableAutoConfiguration => @SpringBootconfiguration + @ComponentScan + @EnableAutoConfiguration
+* @ComponentScan 으로 읽어온 Bean을 @EnableAutoConfiguration로 추가적인 Bean을 더 읽어온다.
+* @ComponentScan은 컴포넌트라는 어노테이션을 가진 클래스들을 스캔해서 Bean으로 등록하는것(SpringbootApplication.java에서 자세히 볼 수 있다)
+* lib > springframework > spring-boot-autoconfiguration > META-INF > spring.factories 의 Configure => 이것이 전부 auto configuration이다 
+* 결국 @autoConfiguarion도 @Configuration 이다.
+
+강의자료
+* @EnableAutoConfiguration (@SpringBootApplication 안에 숨어 있음)
+* 빈은 사실 두 단계로 나눠서 읽힘
+    * 1단계: @ComponentScan
+    * 2단계: @EnableAutoConfiguration
+* @ComponentScan
+    * @Component
+    * @Configuration @Repository @Service @Controller @RestController
+* @EnableAutoConfiguration
+    * spring.factories
+      * org.springframework.boot.autoconfigure.EnableAutoConfiguration
+      * @Configuration
+      * @ConditionalOnXxxYyyZzz
+
+
 *문제시 삭제하겠습니다*
   
