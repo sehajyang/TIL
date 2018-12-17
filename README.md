@@ -14,14 +14,16 @@
 
 [스터디 로그는 이쪽:point_left:](https://sehajyang.github.io/logs/2018/08/22/study-log.html)
 
-#### [Algorithm](https://github.com/sehajyang/TIL/tree/master/Algorithm/src/baekjoonStudy)
+1. [Algorithm](https://github.com/sehajyang/TIL/tree/master/Algorithm/src/baekjoonStudy)
 
-#### [Design Pattern](https://github.com/sehajyang/TIL/blob/master/Java/Design%20Pattern.md)
+2. [Design Pattern](https://github.com/sehajyang/TIL/blob/master/Java/Design%20Pattern.md)
 
-#### [Node.js 정리](https://github.com/sehajyang/TIL/tree/master/Nodejs)
+3. [Node.js 정리](https://github.com/sehajyang/TIL/tree/master/Nodejs)
 
-#### [Java 정리](https://github.com/sehajyang/TIL/tree/master/Java)
+4. [Java 정리](https://github.com/sehajyang/TIL/tree/master/Java)
 
-#### [Spring 정리](https://github.com/sehajyang/TIL/blob/master/Spring)
+5. [Spring 정리](https://github.com/sehajyang/TIL/blob/master/Spring)
 
-#### [면접 정리](https://github.com/sehajyang/TIL/tree/master/Etc) 
+6. [면접 정리](https://github.com/sehajyang/TIL/tree/master/Etc) 
+
+7. [읽었던 좋은 글 정리 및 리뷰](https://github.com/sehajyang/TIL/tree/master/Review)
