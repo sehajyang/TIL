@@ -8,7 +8,7 @@
 
 * 스프링부트 원리
   * 의존성 관리 이해 및 응용
-  * 자동설정 이해
+  * 자동설정 이해 및 응용
   * 내장 웹 이해
   * 스프링부트 원리 정리
   
@@ -56,7 +56,7 @@
 * springboot dependencies pom엔 최상위에 버전에 대한 명시가 되어있다.
 * 최상위엔 springboot starter 말고도 다른 설정(java version)이 많으므로 굳이 그곳에 직접 dependencies를 추가하지 않는게 좋다.
 
-### 자동설정 이해
+### 자동설정 이해 및 응용
 
 * @EnableAutoConfiguration => @SpringBootconfiguration + @ComponentScan + @EnableAutoConfiguration
 * @ComponentScan 으로 읽어온 Bean을 @EnableAutoConfiguration로 추가적인 Bean을 더 읽어온다.
@@ -77,6 +77,28 @@
       * org.springframework.boot.autoconfigure.EnableAutoConfiguration
       * @Configuration
       * @ConditionalOnXxxYyyZzz
+
+#### 자동설정 만들기
+ * Starter와 AutoConfigure
+    * Xxx-Spring-Boot-Autoconfigure로 끝나는 모듈: 자동 설정
+    * Xxx-Spring-Boot-Starter 모듈: 필요한 의존성 정의 (하나로 만들고 싶을 때)
+    * 구현방법
+        * spring-boot-starter xml파일에 필요한 의존성을 추가한다
+        * 최상위 패키지 아래에 @Configuration 어노테이션을 사용해 configuration 파일을 작성한다.
+        * resource/META-INF/spring.factories에 EnableAutoContiguration옵션을 사용한다 선언하고 읽어들일 옵션을 추가한다.
+        ```
+        org.springframework.boot.autoconfigure.EnableAutoContiguration=\
+        me.sehajyang.SehaCustomContiguration
+        ```
+        * maven install
+    * spirngboot가 bean을 등록하는 페이스는 두가지가 있다
+    * component scan 으로 bean을 등록하는게 먼저! 두번째는 autoconfiguration이다
+    * 따라서 빈이 중복될 경우 autoconfiguration으로 등록된 빈이 앞의 빈을 덮어씌워버린다(2.1.1이후 버전에선 해결)
+
+
+
+ * @ConfigurationProperties
+
 
 
 *문제시 삭제하겠습니다*
