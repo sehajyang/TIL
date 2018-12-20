@@ -37,3 +37,28 @@ function f(a,b = 'default',c='1'){
 }
 f(); // 'undefined default 1'
 ~~~
+
+* 객체의 프로퍼티인 함수
+~~~javascript
+const a = {
+    name : 'apple',
+    state() {return 'fresh';}, // 또는 state: function(){ return 'fresh'} 이렇게 할 수 있다.
+}
+~~~
+
+* this
+this는 함수를 어떻게 선언했느냐가 아니라 어떻게 호출했느냐에 따라 달라진다
+~~~javascript
+const a = {
+    name: 'apple',
+    state() {return 'this is ${this.name}';},
+}
+a.state() // this is apple
+~~~
+같은 함수를 변수에 할당하면
+~~~javascript
+const state = a.state();
+state === a.state;
+state(); // this is undefined
+~~~
+자바스크립트는 이 함수가 어디에 속하는지 알 수 없으므로 this는 undefined가 된다
