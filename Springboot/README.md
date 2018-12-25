@@ -98,6 +98,37 @@
 
 
  * @ConfigurationProperties
+    * Component scan으로 등록되는 bean이 덮어씌워지지않게 하려면 덮어씌우는(auto configuration으로 등록된 빈)빈에 @ConditionalOnMissingBean 어노테이션을 사용한다.
+    * @ConditionalOnMissingBean은 bean중복이 아닐때만 해당 bean을 생성하는 어노테이션
+    * property key 값 자동완성
+        * 이 작업을 자동화 하고 싶으면 src/main/resources/application.properties를 만든 후 name 및 how-long에 원하는 값을 쓰고 Configuration 파일을 작성한다 
+        
+    SehajyangProperties 파일 생성 및 작성
+    ~~~java
+    @ConfigurationProperties("sehajyang")
+    public class customProperties{
+        private String name;
+        private int howLong;
+        getter() setter() 
+        (생략)
+    }
+    ~~~
+    * dependency에 spring-boot-configuration-processor 의존성 추가
+    sehajyangConfiguration파일 작성
+    ~~~java
+    @Configuration
+    @EnableConfigurationProperties(Sehajyang.class)
+    public class SehajtangConfiguration {
+
+        @Bean
+        @ConditionalonMissingBean(이 빈이 있으면 만들지 않는 어노테이션)
+        public Sehajyang sehajyang(SehajyangProperties properties){
+            Sehajyang sehajyang =  enw Sehajyang();
+            sehajyang.setHowLong(properties.getHowLong());
+            sehajyang.setName(properties.getName());
+            return sehajyang;
+        }
+    }
 
 
 
