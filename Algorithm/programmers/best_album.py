@@ -3,25 +3,24 @@ from collections import defaultdict
 
 def solution(genres, plays):
     result = []
-    plays_and_index = []
 
-    for item in enumerate(plays):
-        plays_and_index.append(item)
-    genres_and_plays_and_index = list(zip(genres, plays_and_index))
+    genre_data = defaultdict(list)
+    for genre, _index_and_plays in zip(genres, enumerate(plays)):
+        genre_data[genre].append(_index_and_plays)
 
-    d = defaultdict(list)
-    for k, v in genres_and_plays_and_index:
-        d[k].append(v)
+    sum_of_genres = {}
+    for genre, index_and_play_list in genre_data.items():
+        sum_of_genres[genre] = sum([_index_and_play[1] for _index_and_play in index_and_play_list])
 
-    dic = {}
-    for item in d.items():
-        item[1].sort(key=lambda e: e[0])
-        dic[item[0]] = sum([item[1] for item in item[1]])
+    max_genres = sorted(sum_of_genres.keys(), key=sum_of_genres.get, reverse=True)
 
-    max_genres = sorted(dic, key=dic.get, reverse=True)
-    for item in max_genres:
-        sorted_d = sorted(d[item], key=lambda e: (-e[1], e[0]))
-        for item in sorted_d[:2]:
-            result.append(item[0])
+    for genre in max_genres:
+        sorted_index_and_plays = sorted(genre_data[genre], key=lambda e: (-e[1], e[0]))
+        for index_and_play in sorted_index_and_plays[:2]:
+            result.append(index_and_play[0])
 
     return result
+
+
+if __name__ == '__main__':
+    print(solution(["classic", "pop", "classic", "classic", "pop"], [500, 600, 150, 800, 2500]))
