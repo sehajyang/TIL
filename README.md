@@ -22,6 +22,6 @@
 
 5. [Spring 정리](https://github.com/sehajyang/TIL/blob/master/Spring)
 
-6. [면접 정리](https://github.com/sehajyang/TIL/tree/master/Etc) 
+6. [면접 정리](https://sehajyang.github.io/devtips/2018/11/27/interview-answer.html) 
 
 7. [읽었던 좋은 글 정리 및 리뷰](https://github.com/sehajyang/TIL/tree/master/Review)
