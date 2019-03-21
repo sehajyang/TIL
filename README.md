@@ -10,11 +10,9 @@
 
 ## Study-log
 
-[매일매일 알고리즘](https://github.com/sehajyang/TIL/tree/master/Algorithm/baekjoonStudy/daily)
+[스터디 로그](https://sehajyang.github.io/logs/2018/08/22/study-log.html)
 
-[스터디 로그는 이쪽:point_left:](https://sehajyang.github.io/logs/2018/08/22/study-log.html)
-
-1. [Algorithm](https://github.com/sehajyang/TIL/tree/master/Algorithm/src/baekjoonStudy)
+1. [Algorithm](https://github.com/sehajyang/TIL/tree/master/Algorithm/README.md), [Gist](https://gist.github.com/sehajyang)
 
 2. [Design Pattern](https://github.com/sehajyang/TIL/blob/master/Java/Design%20Pattern.md)
 
