@@ -1,5 +1,5 @@
 # Today I Learned
-#### 설명하지 못하면 모르는 것이다.
+#### 설명하지 못하면 모르는 것.
 - 개인적 Wiki를 목표로 정리
 - 공부한거나 관심사를 Commit
 
@@ -12,7 +12,7 @@
 
 [스터디 로그](https://sehajyang.github.io/logs/2018/08/22/study-log.html)
 
-1. [Algorithm](https://github.com/sehajyang/TIL/tree/master/Algorithm/README.md), [Gist](https://gist.github.com/sehajyang)
+1. [Algorithm](https://github.com/sehajyang/TIL/tree/master/Algorithm), [Gist](https://gist.github.com/sehajyang)
 
 2. [Design Pattern](https://github.com/sehajyang/TIL/blob/master/Java/Design%20Pattern.md)
 
