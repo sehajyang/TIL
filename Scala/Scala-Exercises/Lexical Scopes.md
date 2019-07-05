@@ -1,5 +1,5 @@
 # Lexical Scopes
-url : [scala-exercises](https://www.scala-exercises.org/scala_tutorial/lexical_scopes)
+ : [scala-exercises](https://www.scala-exercises.org/scala_tutorial/lexical_scopes)
 ## 스칼라의 블록
 * 스칼라의 블록은 중괄호로 구분됩니다.
 ```
@@ -27,22 +27,26 @@ val result = {
 그러나 여러행에 걸쳐있는 표현식은
 ```scala
 someLongExpression  
-  +someOtherExpression  
-  이럴경우  
+  +someOtherExpression 
+```
+이럴경우 
+```scala
 someLongExpression;  
   +someOtherExpression  
-  이렇게 해석됩니다.
 ```
+이렇게 해석됩니다.
 
 따라서 만약 한줄에 둘 이상의 정의를 해야하면 
 ```scala
 (someLongExpression  
   + someOtherExpression)  
-  혹은  
+```
+혹은  
+```scala
 someLongExpression +  
   someOtherExpression  
-  이렇게 할 수 있습니다.  
 ```
+이렇게 할 수 있습니다.  
 
 ## 최상위 정의
 `def`와 `val`은 top-level object define 해야 합니다.
@@ -58,7 +62,7 @@ MyExecutableProgram.myMethod
 ```
 
 ## Package
-top-level 정의 은 패키지로 구성될수 있으며 클래스 혹은 객체를 패키지 않에 넣으려면 `package` 절을 사용 합니다.
+top-level 정의 은 패키지로 구성될수 있으며 클래스 혹은 객체를 패키지 안에 넣으려면 `package` 절을 사용 합니다.
 ```scala
 // file foo/Bar.scala
 package foo
