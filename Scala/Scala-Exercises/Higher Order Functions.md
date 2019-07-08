@@ -6,19 +6,19 @@
 이렇게 마치 값 처럼 함수를 입력받거나 함수를 리턴하는 함수를 `고차함수`라고 부릅니다.
 
 ## MOTIVATION
- a와 b사이의 정수(integer)들의 합을 합니다.
+ a와 b사이의 `정수(integer)`들의 합을 합니다.
 ```scala
 def sumInts(a: Int, b: Int): Int =
   if (a > b) 0 else a + sumInts(a + 1, b)
 ```
- a 와 b 사이의 정수(integer)들인 cube 들의 합을 합니다.
+ a 와 b 사이의 `정수(integer)`들인 `cube` 들의 합을 합니다.
 ```scala
 def cube(x: Int): Int = x * x * x
 
 def sumCubes(a: Int, b: Int): Int =
   if (a > b) 0 else cube(a) + sumCubes(a + 1, b)
 ```
- a 와 b 사이의 정수(integer)들인 factorial 들의 합을 합니다.
+ a 와 b 사이의 `정수(integer)`들인 `factorial` 들의 합을 합니다.
 ```scala
 def sumFactorials(a: Int, b: Int): Int =
   if (a > b) 0 else factorial(a) + sumFactorials(a + 1, b)
@@ -41,7 +41,7 @@ def sumFactorials(a: Int, b: Int) = sum(factorial, a, b)
 ```
 
 ## 함수 타입(FUNCTION TYPES)
-`A => B`의 타입은 함수 입니다. 함수 형태인 A argument 를 입력한 결과를 B 라는 결과로 리턴합니다.
+`A => B`의 타입은 함수 입니다. 함수 형태인 `A` `argument` 를 입력한 결과를 B 라는 결과로 리턴합니다.  
 그러므로, `Int => Int`는 int를 int로 맵핑하는 함수 입니다.
 
 ## 익명함수(ANONYMOUS FUNCTIONS)
