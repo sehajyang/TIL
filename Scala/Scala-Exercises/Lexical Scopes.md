@@ -1,5 +1,5 @@
 # Lexical Scopes
-원문 : [scala-exercises](https://www.scala-exercises.org/scala_tutorial/lexical_scopes)
+원문 : [scala-exercises lexical_scopes](https://www.scala-exercises.org/scala_tutorial/lexical_scopes)
 ## 스칼라의 블록
 * 스칼라의 블록은 중괄호로 구분됩니다.
 ```

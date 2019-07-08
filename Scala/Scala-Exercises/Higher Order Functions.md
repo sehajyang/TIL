@@ -1,8 +1,8 @@
-# Higher Order Functions
-고차함수
+# 고차함수(Higher Order Functions)
+원문 : [scala_tutorial higher_order_functions](https://www.scala-exercises.org/scala_tutorial/higher_order_functions)
 
 함수형 언어는 함수를 `일급 객체(first-class) 값` 으로 다룹니다.
-이것은 즉 값처럼 함수를 매개변수로 전달하고 결과를 반환합니다. 프로그램을 유연하게 조립하는 방법입니다.  
+이것은 즉 값처럼 함수를 매개변수로 전달하고 결과를 반환합니다. 또한 프로그램을 유연하게 조립하는 방법입니다.  
 이렇게 마치 값 처럼 함수를 입력받거나 함수를 리턴하는 함수를 `고차함수`라고 부릅니다.
 
 ## MOTIVATION
@@ -23,7 +23,7 @@ def sumCubes(a: Int, b: Int): Int =
 def sumFactorials(a: Int, b: Int): Int =
   if (a > b) 0 else factorial(a) + sumFactorials(a + 1, b)
 ```
-이 메소드들이 비슷합니다. 공통패턴들을 제외할 수 있을까요?
+이 메소드들은 비슷합니다. 공통패턴들을 제외할 수 있을까요?
 
 ## 고차함수로 더하기(SUMMING WITH HIGHER-ORDER FUNCTIONS)
 정의해봅시다:
@@ -83,6 +83,5 @@ println("abc")
 def sumInts(a: Int, b: Int) = sum(x => x, a, b)
 def sumCubes(a: Int, b: Int) = sum(x => x * x * x, a, b)
 ```
-
 
 같이 보면 좋은 포스팅 : [일급 함수](https://hjaem.info/articles/kr_4_1)
