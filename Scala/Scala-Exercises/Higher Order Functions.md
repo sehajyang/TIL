@@ -1,9 +1,10 @@
 # 고차함수(Higher Order Functions)
 원문 : [scala_tutorial higher_order_functions](https://www.scala-exercises.org/scala_tutorial/higher_order_functions)
 
-함수형 언어는 함수를 `일급 객체(first-class) 값` 으로 다룹니다.
-이것은 즉 값처럼 함수를 매개변수로 전달하고 결과를 반환합니다. 또한 프로그램을 유연하게 조립하는 방법입니다.  
-이렇게 마치 값 처럼 함수를 입력받거나 함수를 리턴하는 함수를 `고차함수`라고 부릅니다.
+함수형 언어는 함수를 `일급 객체(first-class) 값` 으로 다룹니다.  
+즉 값처럼 함수를 매개변수로 전달하고 결과를 반환할 수 있습니다.   
+고차함수는 프로그램을 유연하게 조립하는 방법을 제공합니다.  
+이렇게 마치 값 처럼 다른 함수를 매개변수로 사용하거나 함수를 결과로 리턴하는 함수를 `고차함수`라고 합니다.
 
 ## MOTIVATION
  a와 b사이의 `정수(integer)`들의 합을 합니다.
