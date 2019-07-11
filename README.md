@@ -8,9 +8,7 @@
 - GFM (Github Flavored Markdown)을 이용
 - 강제성을 띄지 않는다.
 
-## Study-log
-
-[스터디 로그](https://sehajyang.github.io/logs/2018/08/22/study-log.html)
+## Index
 
 1. [Algorithm](https://github.com/sehajyang/TIL/tree/master/Algorithm), [Gist](https://gist.github.com/sehajyang)
 
