@@ -1,5 +1,5 @@
 # 유효범위(Lexical Scopes)
-원문 : [scala tutorial higher order functions](https://www.scala-exercises.org/scala_tutorial/lexical_scopes)
+원문 : [scala tutorial lexical scopes](https://www.scala-exercises.org/scala_tutorial/lexical_scopes)
 ## 중첩 함수
 작업을 여러 작은 함수로 분리하는 것은 좋은 함수형 프로그래밍 스타일입니다.  
 그러나 `sqrtIter`, `improve`, `isGoodEnough` 같은 함수는 `sqrt` 의 구현만을 위한 것이지 사용되기 위한 것은 아닙니다.  
