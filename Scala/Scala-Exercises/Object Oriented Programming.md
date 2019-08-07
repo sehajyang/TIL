@@ -395,7 +395,7 @@ class Square extends Shape with Planar with Movable …
 반면에, 트레잇은 값 파라미터를 가지지 않으며 클래스만 가질 수 있습니다.
 
 ## 스칼라의 클래스 계층
-![scala_type_hierarchy](/images/blogpost/scala_type_hierarchy.png)
+![scala_type_hierarchy](https://www.scala-exercises.org/assets/scala_tutorial/scala_type_hierarchy.png)
 
 ### Top Type
 타입 계층 구조의 맨 위에는 다음이 있습니다.
