@@ -26,6 +26,4 @@
 
 6. [Scala 정리](https://github.com/sehajyang/TIL/blob/master/Scala)
 
-7. [면접 정리](https://sehajyang.github.io/devtips/2018/11/27/interview-answer.html) 
-
-8. [읽었던 좋은 글 정리 및 리뷰](https://github.com/sehajyang/TIL/tree/master/Review)
+7. [오브젝트 정리](https://github.com/sehajyang/TIL/blob/master/Architecture/Object)
