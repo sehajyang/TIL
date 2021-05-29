@@ -1,2 +1,0 @@
-# Cloud Computing Service Types
-
