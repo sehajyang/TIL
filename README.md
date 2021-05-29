@@ -18,6 +18,10 @@
 
 4. [Java 정리](https://github.com/sehajyang/TIL/tree/master/Java)
 
+4-1. [Effective Java 정리](https://github.com/sehajyang/TIL/tree/master/Java/Effective-Java)
+
+4-2. [Optimizing Java 정리](https://github.com/sehajyang/TIL/tree/master/Java/Optimizing-Java)
+
 5. [Spring 정리](https://github.com/sehajyang/TIL/blob/master/Spring)
 
 6. [Scala 정리](https://github.com/sehajyang/TIL/blob/master/Scala)
