@@ -1,13 +1,4 @@
 # Today I Learned
-#### 설명하지 못하면 모르는 것.
-- 개인적 Wiki를 목표로 정리
-- 공부한 것 혹은 관심사를 Commit
-
-## 작성규칙
-- 폴더로 분류, 폴더명은 영문(Capword)
-- GFM (Github Flavored Markdown)을 이용
-- 강제성을 띄지 않는다.
-
 ## Index
 
 1. [Algorithm](https://github.com/sehajyang/TIL/tree/master/Algorithm), [Gist](https://gist.github.com/sehajyang)
