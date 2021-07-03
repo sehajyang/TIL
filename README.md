@@ -28,4 +28,6 @@
 
 7. [오브젝트 정리](https://github.com/sehajyang/TIL/blob/master/Architecture/Object)
 
-8. [MongoDB 정리](https://github.com/sehajyang/TIL/blob/master/DB/MongoDB)
+8. [MongoDB 정리](https://github.com/sehajyang/TIL/blob/master/DB/MongoDB)  
+
+9. [Kafka 정리](https://github.com/sehajyang/TIL/blob/master/MQ/Kafka) 
